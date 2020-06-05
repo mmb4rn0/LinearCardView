@@ -4,39 +4,38 @@ Provides all CardView styling and properties with vertical/horizontal view organ
 [![](https://jitpack.io/v/mmb4rn0/LinearCardView.svg)](https://jitpack.io/#mmb4rn0/LinearCardView)
 
 # Download
-Grab via gradle-
-  Step 1. Add the JitPack repository to your build file
+Grab via gradle - Step 1. Add the JitPack repository to your build file
   ```grovy
-   allprojects {
-   		repositories {
-   			...
-   			maven { url 'https://jitpack.io' }
-   		}
+allprojects {
+   	repositories {
+   		...
+   		maven { url 'https://jitpack.io' }
    	}
+}
   ```
   Step 2. Add the dependency
   ```grovy
-   dependencies {
-   	        implementation 'com.github.mmb4rn0:LinearCardView:v1.0.0'
-   	}
+dependencies {
+   	    implementation 'com.github.mmb4rn0:LinearCardView:v1.0.0'
+}
   ```
 or via Maven-
   Step 1. Add the JitPack repository to your build file
   ```xml
-   <repositories>
-   		<repository>
-   		    <id>jitpack.io</id>
-   		    <url>https://jitpack.io</url>
-   		</repository>
-   	</repositories>
+<repositories>
+   	<repository>
+   		<id>jitpack.io</id>
+   		<url>https://jitpack.io</url>
+   	</repository>
+</repositories>
   ```
   Step 2. Add the dependency
   ```xml
-   <dependency>
-   	    <groupId>com.github.mmb4rn0</groupId>
-   	    <artifactId>LinearCardView</artifactId>
-   	    <version>v1.0.0</version>
-   	</dependency>
+<dependency>
+   	<groupId>com.github.mmb4rn0</groupId>
+   	<artifactId>LinearCardView</artifactId>
+   	<version>v1.0.0</version>
+</dependency>
   ```
 
 # Sample Code
@@ -73,7 +72,7 @@ or via Maven-
             android:text="Text3"
             android:textSize="26sp" />
 
-    </com.mmb4rn0.linear.LinearCardView>
+</com.mmb4rn0.linear.LinearCardView>
    ```
 
 #License
