@@ -16,7 +16,7 @@ allprojects {
   Step 2. Add the dependency
   ```grovy
 dependencies {
-   	    implementation 'com.github.mmb4rn0:LinearCardView:v1.0.0'
+   	implementation 'com.github.mmb4rn0:LinearCardView:v1.0.0'
 }
   ```
 or via Maven-
